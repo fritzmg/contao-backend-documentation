@@ -15,7 +15,10 @@
 /**
  * Register the back end module.
  */
-$GLOBALS['BE_MOD']['system']['documentation'] = array('callback' => 'BackendDocumentation\ModuleBackendDocumentation');
+$GLOBALS['BE_MOD']['system']['documentation'] = array(
+	'callback' => 'BackendDocumentation\ModuleBackendDocumentation',
+	'icon'     => 'system/modules/backend_documentation/assets/icon.png'
+);
 
 
 /**
