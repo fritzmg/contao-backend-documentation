@@ -1,0 +1,4 @@
+
+<section class="markdown-body">
+  <?= $this->content ?>
+</section>
