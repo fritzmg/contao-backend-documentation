@@ -2,3 +2,8 @@
 .markdown-body {
 	margin:1em;
 }
+
+.markdown-body ul,
+.markdown-body li {
+	list-style:disc outside none;
+}
