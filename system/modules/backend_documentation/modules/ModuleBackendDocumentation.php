@@ -39,5 +39,11 @@ class ModuleBackendDocumentation extends \Contao\BackendModule
 		// set the parsed content
 		$parsedown = new \Parsedown();
 		$this->Template->content = $parsedown->text($strMarkdown);
+
+		// add CSS
+		$GLOBALS['TL_CSS'][] = 'system/modules/backend_documentation/assets/backend.css';
+
+		/* source: https://github.com/sindresorhus/github-markdown-css */
+		$GLOBALS['TL_CSS'][] = 'system/modules/backend_documentation/assets/markdown.css';
 	}
 }

@@ -19,15 +19,3 @@ $GLOBALS['BE_MOD']['system']['documentation'] = array(
 	'callback' => 'BackendDocumentation\ModuleBackendDocumentation',
 	'icon'     => 'system/modules/backend_documentation/assets/icon.png'
 );
-
-
-/**
- * Add CSS for the back end.
- */
-if (TL_MODE == 'BE')
-{
-	$GLOBALS['TL_CSS'][] = 'system/modules/backend_documentation/assets/backend.css';
-
-	/* source: https://github.com/sindresorhus/github-markdown-css */
-	$GLOBALS['TL_CSS'][] = 'system/modules/backend_documentation/assets/markdown.css';
-}
