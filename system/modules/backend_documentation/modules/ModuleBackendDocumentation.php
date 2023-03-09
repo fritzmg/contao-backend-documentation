@@ -14,6 +14,8 @@
 
 namespace BackendDocumentation;
 
+use Contao\BackendTemplate;
+
 class ModuleBackendDocumentation extends \Contao\BackendModule
 {
 	/**
@@ -31,7 +33,7 @@ class ModuleBackendDocumentation extends \Contao\BackendModule
 	protected function compile()
 	{
 		// load the markdown template
-		$objTemplate = new \BackendTemplate('be_documentation_markdown');
+		$objTemplate = new BackendTemplate('be_documentation_markdown');
 
 		// parse the template
 		$strMarkdown = $objTemplate->parse();
