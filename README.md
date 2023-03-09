@@ -1,4 +1,3 @@
-[![](https://img.shields.io/maintenance/yes/2017.svg)](https://github.com/fritzmg/contao-backend-documentation)
 [![](https://img.shields.io/packagist/v/fritzmg/contao-backend-documentation.svg)](https://packagist.org/packages/fritzmg/contao-backend-documentation)
 [![](https://img.shields.io/packagist/dt/fritzmg/contao-backend-documentation.svg)](https://packagist.org/packages/fritzmg/contao-backend-documentation)
 
