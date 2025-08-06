@@ -6,7 +6,7 @@ declare(strict_types=1);
  * (c) INSPIRED MINDS
  */
 
-namespace InspiredMinds\ContaoContentTemplates\ContaoManager;
+namespace InspiredMinds\ContaoBackendDocumentation\ContaoManager;
 
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
